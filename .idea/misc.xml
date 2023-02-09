@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/poke_bola_foreground.xml" value="0.155" />
+        <entry key="app/src/main/res/layout/fragment_pokemon.xml" value="0.1984375" />
         <entry key="app/src/main/res/layout/fragment_poker.xml" value="0.1984375" />
-        <entry key="app/src/main/res/layout/poker_activity.xml" value="0.1984375" />
+        <entry key="app/src/main/res/layout/poker_activity.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/app_menu_items.xml" value="0.25" />
       </map>
     </option>
   </component>
