@@ -8,7 +8,9 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
 import com.example.curso_android_marvel.R
 import com.example.curso_android_marvel.databinding.PokerActivityBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class PokerActivity : AppCompatActivity() {
 
     private lateinit var navController: NavController
@@ -21,6 +23,7 @@ class PokerActivity : AppCompatActivity() {
 
         //recuperando meu navHost(fragmento que vai receber outro dentro pra conseguir fazer a navegação)
         //dentro dele que vai ter meus destinos
+
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_container) as NavHostFragment
         navController = navHostFragment.navController
